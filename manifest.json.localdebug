@@ -1,0 +1,36 @@
+{
+	"manifest_version": 2,
+
+	"author": "peturdainn",
+	"developer": {
+		"name": "peturdainn",
+		"url": "https://github.com/peturdainn"
+	},
+	"homepage_url": "https://github.com/peturdainn/send-link-and-show",
+
+	"name": "Send Link and Show",
+	"description": "Send links via customizable context-menu-entries as GET requests to an equally cconfigurable server, and show the result in a new tab",
+	"version": "0.0.1",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "petur@lunda.be",
+        "strict_min_version": "42.0"
+      }
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+	"permissions": [
+		"contextMenus",
+		"storage"
+	],
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+	"options_ui": {
+		"page": "options.html",
+		"browser_style": true
+	}
+}

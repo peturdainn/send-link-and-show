@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <form>
+    <p>
+      Pairs of labels and URLs, separated by a "|", each pair on a new line. Minimum one pair.<br>
+      "%%u" (without the quotes) will be replaced by the URL that was clicked.<br>
+      Everything before the "|" will be used as the context menu label.<br>
+      The resulting full URL will be opened in a new tab. If you only need to invoke the GET request, consider the send-link extension.
+    </p>
+    <p>
+      Example:<br>
+      <code>
+        Entry1|https://example.com?url=%%u<br>
+        Entry2|https://example.com?url=%%u
+      </code>
+    </p>
+    <textarea rows="10" id="config"></textarea>
+    <button type="submit">Save</button>
+  </form>
+  <script src="options.js"></script>
+</body>
+</html>
