@@ -10,7 +10,7 @@
 
 	"name": "Send Link and Show",
 	"description": "Send links via customizable context-menu-entries as GET requests to an equally configurable server, and show the result in a new tab",
-	"version": "0.0.1",
+	"version": "0.0.2",
     "icons": {
       "48": "icon.png"
     },
