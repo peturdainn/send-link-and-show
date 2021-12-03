@@ -8,9 +8,9 @@
 	},
 	"homepage_url": "https://github.com/peturdainn/send-link-and-show",
 
-	"name": "Send Link and Show",
-	"description": "Send links via customizable context-menu-entries as GET requests to an equally cconfigurable server, and show the result in a new tab",
-	"version": "0.0.1",
+	"name": "Send_Link_dbg_Show",
+	"description": "Send links via customizable context-menu-entries as GET requests to an equally configurable server, and show the result in a new tab",
+	"version": "0.0.2",
     "browser_specific_settings": {
       "gecko": {
         "id": "petur@lunda.be",
